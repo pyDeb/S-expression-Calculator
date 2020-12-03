@@ -12,6 +12,7 @@ $ ./calc.py "(add 12 12)"
 **A function call takes the following form:**
 
 (FUNCTION EXPR EXPR)
+
 A function call is always delimited by parenthesis ( and ).
 
 The FUNCTION is one of add or multiply.
@@ -21,12 +22,14 @@ The EXPR can be any arbitrary expression, i.e. it can be further function calls 
 Exactly one space is used to separate each term.
 
 For example:
-
+```
 (add 123 456)
 
 (multiply (add 1 2) 3)
+```
 
 **The add function:**
+```
 (add 1 1)
 2
 
@@ -35,8 +38,9 @@ For example:
 
 (add 3 (add (add 3 3) 3))
 12
-
+```
 **The multiply function:**
+```
 (multiply 1 1)
 1
 
@@ -48,11 +52,14 @@ For example:
 
 (multiply 3 (multiply (multiply 3 3) 3))
 81
+```
 
 **Combination of add and multiply:**
+```
 (add 1 (multiply 2 3))
 7
 
 (multiply 2 (add (multiply 2 3) 8))
 28
+```
 
