@@ -1,7 +1,7 @@
 # S-expression-Calculator
 It is a command-line program that acts as a simple calculator: it takes a single argument as an expression and prints out the integer result of evaluating it.
 
-Sample input and out:
+**Sample input and output:**
 
 $ ./calc.py 123
 123
@@ -9,7 +9,7 @@ $ ./calc.py 123
 $ ./calc.py "(add 12 12)"
 24
 
-A function call takes the following form:
+**A function call takes the following form:**
 
 (FUNCTION EXPR EXPR)
 A function call is always delimited by parenthesis ( and ).
@@ -26,7 +26,7 @@ For example:
 
 (multiply (add 1 2) 3)
 
-The add function:
+**The add function:**
 (add 1 1)
 2
 
@@ -36,7 +36,7 @@ The add function:
 (add 3 (add (add 3 3) 3))
 12
 
-The multiply function:
+**The multiply function:**
 (multiply 1 1)
 1
 
@@ -49,7 +49,7 @@ The multiply function:
 (multiply 3 (multiply (multiply 3 3) 3))
 81
 
-Combination of add and multiply:
+**Combination of add and multiply:**
 (add 1 (multiply 2 3))
 7
 
