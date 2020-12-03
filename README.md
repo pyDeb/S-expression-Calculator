@@ -2,13 +2,13 @@
 It is a command-line program that acts as a simple calculator: it takes a single argument as an expression and prints out the integer result of evaluating it.
 
 **Sample input and output:**
-
+```
 $ ./calc.py 123
 123
 
 $ ./calc.py "(add 12 12)"
 24
-
+```
 **A function call takes the following form:**
 
 (FUNCTION EXPR EXPR)
